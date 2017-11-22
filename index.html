@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Webpack: modularización y eficiencia en tu código.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="public/main.css">
+</head>
+<body class="js-home">
+	<header class="main_header js-main-header">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="article.html">Article</a></li>
+			</ul>
+		</nav>
+		<h3>Hello <span class="js-name">World!</span> <span class="js-lastname"></span></h3>
+	</header>
+	<div class="main_slider js-slider">
+		<img src="https://dummyimage.com/1600x800/CCC/ffffff" />
+		<img src="https://dummyimage.com/1600x800/CCC/ffffff" />
+		<img src="https://dummyimage.com/1600x800/CCC/ffffff" />
+		<img src="https://dummyimage.com/1600x800/CCC/ffffff" />
+	</div>
+	<div class="container">
+		<article>
+			<img src="./public/images/mac.jpg" />
+			<h1>Webpack: modularización y eficiencia en tu código.</h1>
+			<h2>Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna ac diam ultricies pharetra. Nulla commodo maximus consequat. Praesent at ultrices turpis. Nam ornare convallis orci, ac pulvinar justo lobortis vitae.</p>
+			<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales leo et odio aliquet tempor. Maecenas eu eleifend enim. Cras nec orci eget enim sollicitudin congue. Mauris dapibus at lorem quis cursus. Nullam elementum eget justo id viverra. Vivamus sodales nunc id diam sagittis, ut placerat diam feugiat.</p>
+			<div class="extra_text js-extra-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna ac diam ultricies pharetra. Nulla commodo maximus consequat. Praesent at ultrices turpis. Nam ornare convallis orci, ac pulvinar justo lobortis vitae.</p>
+				<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sodales leo et odio aliquet tempor. Maecenas eu eleifend enim. Cras nec orci eget enim sollicitudin congue. Mauris dapibus at lorem quis cursus. Nullam elementum eget justo id viverra. Vivamus sodales nunc id diam sagittis, ut placerat diam feugiat.</p>
+			</div>
+			<button class="js-show-text" type="button">Leer más</button>
+		</article>
+	</div>
+	<footer class="main_footer">
+		<p>@Copyright lorem ipsum</p>
+	</footer>
+	<script type="text/javascript" src="public/app.js"></script>
+</body>
+</html>

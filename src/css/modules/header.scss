@@ -1,0 +1,43 @@
+.main_header {
+	border-bottom: 10px solid $orange;
+	background-image: url('../images/pattern.png');
+	background-size: 100px;
+    background-repeat: repeat;
+	display: block;
+	padding: 20px;
+
+	nav {
+		display: inline-block;
+	}
+
+	ul {
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin: 0 5px;
+		}
+
+		a {
+			font-size: 12px;
+			line-height: 24px;
+			color: $dark;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+	}
+
+	h3 {
+		display: inline-block;
+    	float: right;
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	span {
+		color: #777;
+	}
+}

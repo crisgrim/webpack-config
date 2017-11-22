@@ -1,0 +1,31 @@
+$light: #ffffff;
+$dark: #000000;
+$orange: #ffa500;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('./vendor/bootstrap.min.css');
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+
+button {
+	transition: all .3s ease-in-out;
+	appearance: none;
+	background-color: transparent;
+	border: 1px solid $dark;
+	padding: 8px 15px;
+
+	&:hover,
+	&:focus {
+		background-color: $dark;
+		color: $light;
+		outline: none;
+	}
+}
