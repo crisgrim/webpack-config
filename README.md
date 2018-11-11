@@ -1,10 +1,6 @@
 # webpack-config
 > Webpack: Initial config
 
-# test-project
-
-> A Vue.js project
-
 ## Build Setup
 
 ``` bash
